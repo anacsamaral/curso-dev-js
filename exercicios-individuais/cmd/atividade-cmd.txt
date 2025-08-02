@@ -1,0 +1,218 @@
+U:\Users\54313217819>cd Desktop
+
+U:\Users\54313217819\Desktop>md projeto_responsivo
+
+U:\Users\54313217819\Desktop>cd projeto_responsivo
+
+U:\Users\54313217819\Desktop\projeto_responsivo>md public
+
+U:\Users\54313217819\Desktop\projeto_responsivo>md src
+
+U:\Users\54313217819\Desktop\projeto_responsivo>md docs
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd public
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>md html
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>md css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>md js
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>md media
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd media
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>dir
+ O volume na unidade U é Users
+ O Número de Série do Volume é DCFF-9AF2
+
+ Pasta de U:\Users\54313217819\Desktop\projeto_responsivo\public\media
+
+26/07/2025  09:11    <DIR>          .
+26/07/2025  09:11    <DIR>          ..
+               0 arquivo(s)              0 bytes
+               2 pasta(s)   845.242.339.328 bytes disponíveis
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>dir /s
+ O volume na unidade U é Users
+ O Número de Série do Volume é DCFF-9AF2
+
+ Pasta de U:\Users\54313217819\Desktop\projeto_responsivo\public\media
+
+26/07/2025  09:11    <DIR>          .
+26/07/2025  09:11    <DIR>          ..
+               0 arquivo(s)              0 bytes
+
+     Total de Arquivos na Lista:
+               0 arquivo(s)              0 bytes
+               2 pasta(s)   845.242.339.328 bytes disponíveis
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd html
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\html>echo Projeto Responsivo > home.html
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\html>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\css>echo body { margin:0; padding: 0; background-color: lightgray} > theme.css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\css>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd media
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>md imagens
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>md fontes
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>copy css theme.css
+O sistema não pode encontrar o arquivo especificado.
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\media>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>copy css theme.css
+css\theme.css
+        1 arquivo(s) copiado(s).
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd js
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\js>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd docs
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd docs
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>past css theme.css
+'past' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd public
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\css>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd docs
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>copy css theme.css
+O sistema não pode encontrar o arquivo especificado.
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd public
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\css>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd docs
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd docs
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>copy ..\public\css\theme.css .
+        1 arquivo(s) copiado(s).
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd public
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd js
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\js>echo console.log("Site responsivo pronto!") > responsivo.js
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\js>echo console.log("Utilitários carregados!") > utils.js
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\js>rename utils.js helpers.js
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\js>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>dir
+ O volume na unidade U é Users
+ O Número de Série do Volume é DCFF-9AF2
+
+ Pasta de U:\Users\54313217819\Desktop\projeto_responsivo\public
+
+26/07/2025  09:29    <DIR>          .
+26/07/2025  09:10    <DIR>          ..
+26/07/2025  09:15    <DIR>          css
+26/07/2025  09:13    <DIR>          html
+26/07/2025  09:40    <DIR>          js
+26/07/2025  09:15    <DIR>          media
+26/07/2025  09:29                61 theme.css
+               1 arquivo(s)             61 bytes
+               6 pasta(s)   845.227.429.888 bytes disponíveis
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>del theme.css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>dir
+ O volume na unidade U é Users
+ O Número de Série do Volume é DCFF-9AF2
+
+ Pasta de U:\Users\54313217819\Desktop\projeto_responsivo\public
+
+26/07/2025  09:42    <DIR>          .
+26/07/2025  09:10    <DIR>          ..
+26/07/2025  09:15    <DIR>          css
+26/07/2025  09:13    <DIR>          html
+26/07/2025  09:40    <DIR>          js
+26/07/2025  09:15    <DIR>          media
+               0 arquivo(s)              0 bytes
+               6 pasta(s)   845.227.220.992 bytes disponíveis
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>tree
+Listagem de caminhos de pasta para o volume Users
+O número de série do volume é DCFF-9AF2
+U:.
+├───css
+├───html
+├───js
+└───media
+    ├───fontes
+    └───imagens
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>tree /f
+Listagem de caminhos de pasta para o volume Users
+O número de série do volume é DCFF-9AF2
+U:.
+├───css
+│       theme.css
+│
+├───html
+│       home.html
+│
+├───js
+│       helpers.js
+│       responsivo.js
+│
+└───media
+    ├───fontes
+    └───imagens
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd docs
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>del theme.css
+
+U:\Users\54313217819\Desktop\projeto_responsivo\docs>cd..
+
+U:\Users\54313217819\Desktop\projeto_responsivo>cd public
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public>cd html
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\html>notepad home.html
+
+U:\Users\54313217819\Desktop\projeto_responsivo\public\html>
