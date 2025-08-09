@@ -9,10 +9,10 @@
 # Repositório
 
 > curso-dev-js/
-├── README.md
-├── pesquisa.txt
+├── README.md/
+├── pesquisa.txt/
 ├── atividades-praticas/
-│   └── atividade.txt
+│   └── atividade.txt/
 └── exercicios-individuais/
     └── cmd/
-        └── atividade-cmd.txt
+        └── atividade-cmd.txt/
