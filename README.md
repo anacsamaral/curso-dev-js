@@ -8,11 +8,11 @@
 
 # Repositório
 
-> curso-dev-js/ \
-├── README.md  
-├── pesquisa.txt  
-├── atividades-praticas/  
-│   └── atividade.txt  
-└── exercicios-individuais/  
-    └── cmd/  
+curso-dev-js/
+├── README.md
+├── pesquisa.txt
+├── atividades-praticas/
+│   └── atividade.txt
+└── exercicios-individuais/
+    └── cmd/
         └── atividade-cmd.txt
