@@ -1,0 +1,32 @@
+REQUISITOS FUNCIONAIS -------------------
+
+- Tela para Cadastrar/Logar cliente
+- Registrar pedido
+- Adicionar complementos e observações
+- Exibir Cardápio
+- Solicitar nome e forma de pagamento
+- Realizar registro de pagamento
+- Controlar status do pedido
+- Buscar produto
+- Notificar etapas do pedido
+- Validar opção de pagamento "cartão"
+- Cancelar pedido
+
+REQUISITOS NÃO FUNCIONAIS ---------------
+
+- Autenticação por email
+- Criptografia e proteção dos dados
+- Tela acessível e interativa
+- Status do pedido em tempo real
+- Autenticação por 2 fatores
+- Visualizar detalhes do pedido
+- Avaliação do pedido
+
+REGRAS DE NEGÓCIO -----------------------
+
+- Um cadastro por CPF
+- Até 3 tentativas de login
+- Até 5 acompanhamentos no lanche
+- Cupom possui tempo de validade de 3 dias
+- Prazo de entrega
+- Funcionamento da hamburgueria: 18h - 02h
