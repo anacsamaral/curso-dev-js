@@ -1,0 +1,24 @@
+REQUISITOS FUNCIONAIS -------------------
+
+- Cadastrar usuário
+- Logar conta de usuário
+- Recuperar senha
+- Validar email e senha
+- Notificar login em novo dispositivo
+
+REQUISITOS NÃO FUNCIONAIS ---------------
+
+- Acessibilidade
+- Criptografia dos dados e LGPD
+- Responsividade
+- Multiplataforma
+- Backup de usuários
+
+REGRAS DE NEGÓCIO -----------------------
+
+- O email deve existir para o cadastro
+- A autenticação deve ser feita a cada 15 dias
+- Possui apenas 3 tentativas de login
+- Não pode cadastrar usuário repetido (validado pelo email)
+- A senha deve ser alterada a cada 12 meses
+- Somente utilizado por colaboradores da empresa
