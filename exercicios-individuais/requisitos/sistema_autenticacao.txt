@@ -1,10 +1,13 @@
 REQUISITOS FUNCIONAIS -------------------
 
-- Cadastrar usuário
-- Logar conta de usuário
-- Recuperar senha
-- Validar email e senha
-- Notificar login em novo dispositivo
+- Cadastrar usuário (tela de cadastro)
+- Logar conta de usuário (tela de login)
+- Recuperar senha (botão)
+- Validar dados
+- Confirmar login em novo dispositivo
+- Verificar captcha
+- Registrar data e hora de acesso
+- Bloquear acesso caso ultrapasse 3 tentativas
 
 REQUISITOS NÃO FUNCIONAIS ---------------
 
@@ -13,12 +16,16 @@ REQUISITOS NÃO FUNCIONAIS ---------------
 - Responsividade
 - Multiplataforma
 - Backup de usuários
+- Autenticação de em 3 segundos
 
 REGRAS DE NEGÓCIO -----------------------
 
-- O email deve existir para o cadastro
+- Usuário/Email único
 - A autenticação deve ser feita a cada 15 dias
 - Possui apenas 3 tentativas de login
 - Não pode cadastrar usuário repetido (validado pelo email)
 - A senha deve ser alterada a cada 12 meses
-- Somente utilizado por colaboradores da empresa
+- Senha com no mínimo 12 caracteres (A, a, 9, @)
+- Senha diferente da igual as últimas 10
+- Cadastro para maiores de 16 anos
+- Aceitar os termos de privacidade e compromisso
