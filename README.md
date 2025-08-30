@@ -42,10 +42,8 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 │   └── Trabalho_Final/
 |
 ├── 📄 Extras/
-│   ├── Lista_01/
-│   │   ├── resolucao.js
-│   │   └── relatorio.pdf
-│   └── Trabalho_Final/
+│   ├── Comandos CMD.txt/
+│   └── Comandos Git e Github.txt/
 │
 └── README.md
 ```
