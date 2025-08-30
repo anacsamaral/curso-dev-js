@@ -1,18 +1,65 @@
-## O que é Markdown?
+Repositório de Estudos - [Nome da Disciplina]
+🎯 Objetivo
+Este repositório serve como meu arquivo pessoal para todos os materiais, anotações, códigos e atividades desenvolvidos durante a disciplina de [Nome da Disciplina]. O objetivo é manter um registro organizado do meu progresso, centralizar os estudos e construir um portfólio com os trabalhos realizados.
 
-> Markdown é uma linguagem de marcação leve, criada para permitir que você formate texto de forma simples e legível, usando apenas símbolos como asteriscos, hífens e outros caracteres especiais, em vez de tags HTML complexas. É uma maneira fácil de adicionar formatação, como itálico, negrito, títulos e listas, a documentos de texto simples. 
+Período: [Período/Semestre] de [Ano]
 
-## Como pode ser utilizada?
+Professor(a): [Nome do Professor(a)]
 
-> O Markdown permite que você se concentre mais no conteúdo e menos na sua apresentação. Ele usa pontuação e caracteres com os quais você já está familiarizado, de uma nova maneira de estruturar e estilizar o texto. Por exemplo, asteriscos ou sublinhados são usados para ênfase (como itálico ou negrito), enquanto hashtags definem cabeçalhos.
+📂 Estrutura de Pastas
+Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 
-# Repositório
+.
+├── 📄 Anotacoes/
+│   ├── Aula_01_Introducao.md
+│   └── Aula_02_[Topico_da_Aula].md
+│
+├── 📚 Material_de_Apoio/
+│   ├── Slides_da_Aula/
+│   └── Artigos_e_Links/
+│
+├── 💻 Codigos/
+│   ├── Exemplo_Aula_01/
+│   └── ...
+│
+├── 📝 Atividades_e_Trabalhos/
+│   ├── Lista_01/
+│   │   ├── resolucao.py
+│   │   └── relatorio.pdf
+│   └── Trabalho_Final/
+│
+└── README.md
+/Anotacoes: Minhas anotações pessoais de cada aula em formato Markdown.
 
-> curso-dev-js/
-├── README.md/
-├── pesquisa.txt/
-├── atividades-praticas/
-│   └── atividade.txt/
-└── exercicios-individuais/
-    └── cmd/
-        └── atividade-cmd.txt/
+/Material_de_Apoio: Slides, PDFs, artigos e outros materiais fornecidos pelo professor.
+
+/Codigos: Scripts e exemplos de código desenvolvidos durante as aulas ou para estudo.
+
+/Atividades_e_Trabalhos: Minhas resoluções para as listas de exercícios, trabalhos e projetos da disciplina.
+
+📈 Status das Atividades
+Aqui controlo o andamento das entregas para não perder nenhum prazo.
+
+Atividade	Data de Entrega	Status	Nota
+Lista de Exerc. 1	dd/mm/aaaa	✅ Entregue	
+Trabalho Prático 1	dd/mm/aaaa	⏳ Em Andamento	
+Prova Parcial 1	dd/mm/aaaa	🚧 A Fazer	
+Trabalho Final	dd/mm/aaaa	🚧 A Fazer	
+Legenda:
+
+✅ Entregue
+
+⏳ Em Andamento
+
+🚧 A Fazer
+
+❌ Atrasado
+
+💡 Tópicos Principais Estudados
+Uma lista dos principais conceitos que aprendi nesta disciplina:
+
+[Tópico 1: Breve descrição do que foi aprendido]
+
+[Tópico 2: Breve descrição do que foi aprendido]
+
+[Tópico 3: Breve descrição do que foi aprendido]
