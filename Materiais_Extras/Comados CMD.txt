@@ -1,0 +1,29 @@
+cd [nome_da_pasta] → Acessa uma pasta específica.
+
+cd .. → Volta um nível na hierarquia de pastas.
+
+dir → Lista os arquivos e pastas do diretório atual.
+
+mkdir ou md [nome_da_pasta] → Cria uma nova pasta.
+
+rmdir ou rd [nome_da_pasta] /s /q → Remove uma pasta e todo seu conteúdo.
+
+tree ou tree /f → Lista a árvore de diretórios ou lista a árvore de diretórios + arquivos.
+
+echo [texto] > [nome_do_arquivo.ext] → Cria um arquivo com o texto especificado.
+
+type [nome_do_arquivo.ext] → Exibe o conteúdo de um arquivo.
+
+copy [origem] [destino] → Copia um arquivo para outro local.
+
+move [origem] [destino] → Move um arquivo para outro local.
+
+rename [nome_antigo.ext] [novo_nome.ext] → Renomeia um arquivo.
+
+del [nome_do_arquivo.ext] → Exclui um arquivo.
+
+cls → Limpa a tela do terminal.
+
+notepad [nome_do_arquivo.ext] → Abre um arquivo no Bloco de Notas.
+
+exit → Fecha o Prompt de Comando.

@@ -22,17 +22,17 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 
 ```
 .
-├── 📄 Anotacoes/
-│   ├── Aula_01_Introducao.md
-│   ├── Aula_02_Variaveis_Tipos.md
-│   ├── Aula_03_Funcoes.md
-│   └── Aula_04_DOM_Eventos.md
-│
 ├── 📚 Material_de_Apoio/
 │   ├── Slides_da_Aula/
 │   └── Artigos_e_Links/
 │
 ├── 💻 Atividades_e_Trabalhos/
+│   ├── Lista_01/
+│   │   ├── resolucao.js
+│   │   └── relatorio.pdf
+│   └── Trabalho_Final/
+|
+├── 📄 Extras/
 │   ├── Lista_01/
 │   │   ├── resolucao.js
 │   │   └── relatorio.pdf

@@ -1,0 +1,67 @@
+Principais Comandos utilizados em sala
+
+--------📖📖📖📖📖--------
+
+git config --global user.name "Seu Nome" → Adiciona o nome do usuário na configuração glogal.
+git config --global user.email "seuemail@example.com" → Adiciona o e-mail do usuário na configuração glogal.
+git init → Inicializa um repositório Git em um diretório.
+git status → Exibe o status dos arquivos no repositório.
+git add nome_arquivo → Adiciona um arquivo específico para a área de stage.
+git add . → Adiciona todos os arquivos modificados para a área de stage.
+git commit -m "Mensagem do commit" → Cria um commit com uma mensagem descritiva.
+git branch -M main → Altera o nome do branch principal para main.
+git push origin main → Envia as mudanças da branch local main para o repositório remoto.
+git clone URL_DO_REPOSITORIO → Clona um repositório remoto para sua máquina local.
+
+--------📖📖📖📖📖--------
+
+Configuração =================
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+
+Inicialização e Clonagem ====================
+git init → Inicializa um repositório Git em um diretório.
+git clone URL_DO_REPOSITORIO → Clona um repositório remoto para sua máquina local.
+
+Trabalho com Commits =======================
+git status → Exibe o status dos arquivos no repositório.
+git add nome_arquivo → Adiciona um arquivo específico para a área de stage.
+git add . → Adiciona todos os arquivos modificados para a área de stage.
+git commit -m "Mensagem do commit" → Cria um commit com uma mensagem descritiva.
+git commit --amend -m "Nova mensagem" → Modifica o último commit.
+
+Branches ==========================
+git branch → Lista as branches existentes.
+git branch nome-da-branch → Cria uma nova branch.
+git branch -M main → Altera o nome do branch principal para main.git checkout nome-da-branch → Muda para a branch especificada.
+git checkout -b nome-da-branch → Cria e já muda para a nova branch.
+git switch -c nome-da-branch → Cria e já muda para a nova branch -> mais atual.
+git merge nome-da-branch → Faz o merge da branch especificada com a branch atual.
+git branch -d nome-da-branch → Deleta uma branch local.
+git checkout nome → mudar de branch
+git switch nome-da-branch → mudar de branch -> mais atual.
+
+Trabalho com Repositórios Remotos =========================
+git remote add origin URL_DO_REPOSITORIO → Adiciona um repositório remoto ao projeto.
+git remote set-url origin <novo-url> → altera o remoto link
+git remote remove origin → remove o diretorio remoto o link
+git push origin main → Envia as mudanças da branch local main para o repositório remoto.
+git push -u origin nome-da-branch → Envia uma nova branch e a define como upstream.
+git pull origin main → Puxa as atualizações do repositório remoto para a branch local.
+git fetch → Obtém as mudanças do repositório remoto sem aplicá-las.
+git remote -v → Verificar qual remote está configurado para um repositório.
+
+Visualização do Histórico =========================
+git log → Exibe o histórico de commits.
+git log --oneline → Exibe o histórico de commits de forma simplificada.
+
+Revertendo Alterações =============================
+git checkout arquivo.txt → Descarta as alterações no arquivo especificado.
+git restore arquivo.txt → Descarta as alterações no arquivo especificado. # mais atual
+git checkout nome-da-branch → Volta para o último commit
+git switch nome-da-branch → Volta para o último commit # mais atual
+git reset HEAD arquivo.txt → Remove o arquivo da área de stage.
+git reset --soft HEAD~1 → Remove o último commit, mantendo as alterações nos arquivos.
+git reset --hard HEAD~1 → Remove o último commit e descarta as alterações.
+git reset --soft <commit> → Remove o commit, mantendo as alterações nos arquivos.
+git reset --hard <commit  > → Remove o commit e descarta as alterações.
