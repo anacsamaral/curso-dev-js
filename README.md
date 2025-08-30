@@ -23,13 +23,22 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 ```
 .
 ├── 📚 Material_de_Apoio/
-│   ├── Slides_da_Aula/
-│   └── Artigos_e_Links/
 │
 ├── 💻 Atividades_e_Trabalhos/
-│   ├── Lista_01/
-│   │   ├── resolucao.js
-│   │   └── relatorio.pdf
+│   ├── Atividades_Individuais/
+│   │   ├── cmd
+│   │   ├── css
+│   │   ├── git_github
+│   │   ├── html
+│   │   ├── prototipo
+│   │   └── requisitos
+|   ├── Atividades_Praticas/
+│   │   ├── cmd
+│   │   ├── css
+│   │   ├── git_github
+│   │   ├── html
+│   │   ├── prototipo
+│   │   └── requisitos
 │   └── Trabalho_Final/
 |
 ├── 📄 Extras/
