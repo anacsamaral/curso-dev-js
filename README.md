@@ -1,12 +1,14 @@
-Repositório de Estudos - [Nome da Disciplina]
-🎯 Objetivo
-Este repositório serve como meu arquivo pessoal para todos os materiais, anotações, códigos e atividades desenvolvidos durante a disciplina de [Nome da Disciplina]. O objetivo é manter um registro organizado do meu progresso, centralizar os estudos e construir um portfólio com os trabalhos realizados.
+# Repositório de Estudos - [Nome da Disciplina]
 
-Período: [Período/Semestre] de [Ano]
+🎯 **Objetivo**
+Este repositório serve como meu arquivo pessoal para todos os materiais, anotações, códigos e atividades desenvolvidos durante a disciplina de `[Nome da Disciplina]`. O objetivo é manter um registro organizado do meu progresso, centralizar os estudos e construir um portfólio com os trabalhos realizados.
 
-Professor(a): [Nome do Professor(a)]
+- **Período:** [Período/Semestre] de [Ano]
+- **Professor(a):** [Nome do Professor(a)]
 
-📂 Estrutura de Pastas
+---
+
+📂 **Estrutura de Pastas**
 Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 
 .
@@ -29,37 +31,34 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 │   └── Trabalho_Final/
 │
 └── README.md
-/Anotacoes: Minhas anotações pessoais de cada aula em formato Markdown.
+- **/Anotacoes**: Minhas anotações pessoais de cada aula em formato Markdown.
+- **/Material_de_Apoio**: Slides, PDFs, artigos e outros materiais fornecidos pelo professor.
+- **/Codigos**: Scripts e exemplos de código desenvolvidos durante as aulas ou para estudo.
+- **/Atividades_e_Trabalhos**: Minhas resoluções para as listas de exercícios, trabalhos e projetos da disciplina.
 
-/Material_de_Apoio: Slides, PDFs, artigos e outros materiais fornecidos pelo professor.
+---
 
-/Codigos: Scripts e exemplos de código desenvolvidos durante as aulas ou para estudo.
-
-/Atividades_e_Trabalhos: Minhas resoluções para as listas de exercícios, trabalhos e projetos da disciplina.
-
-📈 Status das Atividades
+📈 **Status das Atividades**
 Aqui controlo o andamento das entregas para não perder nenhum prazo.
 
-Atividade	Data de Entrega	Status	Nota
-Lista de Exerc. 1	dd/mm/aaaa	✅ Entregue	
-Trabalho Prático 1	dd/mm/aaaa	⏳ Em Andamento	
-Prova Parcial 1	dd/mm/aaaa	🚧 A Fazer	
-Trabalho Final	dd/mm/aaaa	🚧 A Fazer	
-Legenda:
+| Atividade           | Data de Entrega | Status          | Nota |
+|---------------------|-----------------|-----------------|------|
+| Lista de Exerc. 1   | dd/mm/aaaa      | ✅ Entregue     |      |
+| Trabalho Prático 1  | dd/mm/aaaa      | ⏳ Em Andamento |      |
+| Prova Parcial 1     | dd/mm/aaaa      | 🚧 A Fazer      |      |
+| Trabalho Final      | dd/mm/aaaa      | 🚧 A Fazer      |      |
 
-✅ Entregue
+**Legenda:**
+- ✅ Entregue
+- ⏳ Em Andamento
+- 🚧 A Fazer
+- ❌ Atrasado
 
-⏳ Em Andamento
+---
 
-🚧 A Fazer
-
-❌ Atrasado
-
-💡 Tópicos Principais Estudados
+💡 **Tópicos Principais Estudados**
 Uma lista dos principais conceitos que aprendi nesta disciplina:
 
-[Tópico 1: Breve descrição do que foi aprendido]
-
-[Tópico 2: Breve descrição do que foi aprendido]
-
-[Tópico 3: Breve descrição do que foi aprendido]
+- **[Tópico 1:** Breve descrição do que foi aprendido]
+- **[Tópico 2:** Breve descrição do que foi aprendido]
+- **[Tópico 3:** Breve descrição do que foi aprendido]
