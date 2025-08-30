@@ -54,14 +54,6 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 - **/Atividades_e_Trabalhos**: Resoluções de listas, trabalhos e projetos da disciplina.  
 
 Acesso rápido: [Anotacoes](./Anotacoes/) • [Material_de_Apoio](./Material_de_Apoio/) • [Codigos](./Codigos/) • [Atividades_e_Trabalhos](./Atividades_e_Trabalhos/)
-
----
-
-## 🧭 Como Usar
-### Pré-requisitos
-- [Visual Studio Code](https://code.visualstudio.com/) instalado.
-
-
 ---
 
 ## 📈 Status das Atividades
