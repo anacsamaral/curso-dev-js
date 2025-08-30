@@ -10,7 +10,7 @@ Este repositório serve como meu arquivo pessoal para todos os materiais, anota�
 ---
 
 📂 **Estrutura de Pastas**
-Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
+Para manter tudo organizado, adotei a seguinte estrutura de diretórios://
 .
 ├── 📄 Anotacoes/
 │   ├── Aula_01_Introducao.md
