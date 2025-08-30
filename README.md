@@ -1,10 +1,11 @@
 # Repositório de Estudos — Desenvolvimento em JavaScript
 
 🎯 **Objetivo**  
-Este repositório serve como meu arquivo pessoal para todos os materiais, anotações, códigos e atividades desenvolvidos durante a disciplina de **[Nome da Disciplina]**. O objetivo é manter um registro organizado do meu progresso, centralizar os estudos e construir um portfólio com os trabalhos realizados.
+Este repositório serve como meu arquivo pessoal para todos os materiais, anotações, códigos e atividades desenvolvidos durante a disciplina de **Desenvolvimento em JavaScript**. O objetivo é manter um registro organizado do meu progresso, centralizar os estudos e construir um portfólio com os trabalhos realizados.
 
-- **Período:** [Período/Semestre] de [Ano]  
-- **Professor(a):** [Nome do(a) Professor(a)]
+- **Período:** 19/07/2025 a 25/10/2025  
+- **Professor(a):** Lucas Torquato
+- **Instituição:** Senai
 
 ---
 
@@ -31,14 +32,7 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 │   ├── Slides_da_Aula/
 │   └── Artigos_e_Links/
 │
-├── 💻 Codigos/
-│   ├── Exemplo_Aula_01/
-│   │   └── hello_world.js
-│   ├── Exemplo_Aula_02/
-│   │   └── tipos_dados.js
-│   └── ...
-│
-├── 📝 Atividades_e_Trabalhos/
+├── 💻 Atividades_e_Trabalhos/
 │   ├── Lista_01/
 │   │   ├── resolucao.js
 │   │   └── relatorio.pdf
@@ -58,42 +52,34 @@ Acesso rápido: [Anotacoes](./Anotacoes/) • [Material_de_Apoio](./Material_de_
 
 ## 🧭 Como Usar
 ### Pré-requisitos
-- [Node.js](https://nodejs.org/) instalado (versão LTS recomendada).
+- [Visual Studio Code](https://code.visualstudio.com/) instalado.
 
-### Rodando um exemplo
-Na pasta `Codigos/Exemplo_Aula_01`:
-```bash
-node hello_world.js
-```
-
-### Sugerido (opcional)
-- Padronização de código com ESLint e Prettier.
-- Commits semânticos (ex.: `feat: adiciona exemplo de funções`).
 
 ---
 
 ## 📈 Status das Atividades
 Controle de andamento das entregas:
 
-| Atividade           | Data de Entrega | Status          | Nota |
-|---------------------|-----------------|-----------------|------|
-| Lista de Exerc. 1   | dd/mm/aaaa      | ✅ Entregue     |      |
-| Trabalho Prático 1  | dd/mm/aaaa      | ⏳ Em Andamento |      |
-| Prova Parcial 1     | dd/mm/aaaa      | 🚧 A Fazer      |      |
-| Trabalho Final      | dd/mm/aaaa      | 🚧 A Fazer      |      |
+| Atividade                | Data de Entrega | Status | Nota |
+|--------------------------|-----------------|--------|------|
+| Atividade 1 - CMD        | 26/07/2025      |   ✅   | 100 |
+| Atividade 2 - Github     | 02/08/2025      |   ✅   | 100 |
+| Atividade 3 - Requisitos | 09/08/2025      |   ✅   | 100 |
+| Atividade 4 - Requisitos | 09/08/2025      |   ✅   | 100 |
+| Atividade 5 - Requisitos | 09/08/2025      |   ✅   | 100 |
+| Atividade 6 - Protótipo  | 16/08/2025      |   ✅   | 100 |
+| Atividade 7 - HTML       | 23/08/2025      |   ⏳   |     |
 
 **Legenda:** ✅ Entregue • ⏳ Em Andamento • 🚧 A Fazer • ❌ Atrasado
 
 ---
 
 ## 💡 Tópicos Principais Estudados
-- **Introdução ao JavaScript:** sintaxe básica, variáveis e tipos de dados.  
-- **Funções e Escopo:** declaração, arrow functions, escopo de variáveis e closures.  
-- **Arrays e Objetos:** métodos principais, iteração e boas práticas.  
-- **Manipulação do DOM:** seleção de elementos, eventos e interatividade.  
-- **Programação Assíncrona:** callbacks, promises e async/await.  
-- **Integração com APIs:** uso de `fetch` para consumir dados externos.  
+- **Prompt de Comando do Windows (CMD)** 
+- **Git e GitHub**
+- **Requisitos** 
+- **HTML** 
+- **CSS**
+- **JavaScript**
 
 ---
-
-> Sinta-se à vontade para adaptar este README ao seu curso. Bons estudos! 🚀
