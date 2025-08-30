@@ -42,8 +42,8 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 │   └── Trabalho_Final/
 |
 ├── 📄 Extras/
-│   ├── Comandos CMD.txt/
-│   └── Comandos Git e Github.txt/
+│   ├── Comandos CMD.txt
+│   └── Comandos Git e Github.txt
 │
 └── README.md
 ```
