@@ -3,15 +3,14 @@
 🎯 **Objetivo**
 Este repositório serve como meu arquivo pessoal para todos os materiais, anotações, códigos e atividades desenvolvidos durante a disciplina de `[Nome da Disciplina]`. O objetivo é manter um registro organizado do meu progresso, centralizar os estudos e construir um portfólio com os trabalhos realizados.
 
-- **Período:** [19/07/2025] a [25/10/2025]
-- **Professor(a):** [Nome do Professor(a)]
+- **Período:** 19/07/2025 a 25/10/2025
+- **Professor(a):** Lucas Torquato
+- **Instituição:** Senai
 
 ---
 
 📂 **Estrutura de Pastas**
 Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
-
-.
 .
 ├── 📄 Anotacoes/
 │   ├── Aula_01_Introducao.md
