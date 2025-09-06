@@ -80,5 +80,6 @@ Controle de andamento das entregas:
 - **HTML** 
 - **CSS**
 - **JavaScript**
+- **Bootstrap**
 
 ---
