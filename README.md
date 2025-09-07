@@ -59,15 +59,15 @@ Acesso rápido: [Anotacoes](./Anotacoes/) • [Material_de_Apoio](./Material_de_
 ## 📈 Status das Atividades
 Controle de andamento das entregas:
 
-| Atividade                | Data de Entrega | Status | Nota |
-|--------------------------|-----------------|--------|------|
-| Atividade 1 - CMD        | 26/07/2025      |   ✅   | 100 |
-| Atividade 2 - Github     | 02/08/2025      |   ✅   | 100 |
-| Atividade 3 - Requisitos | 09/08/2025      |   ✅   | 100 |
-| Atividade 4 - Requisitos | 09/08/2025      |   ✅   | 100 |
-| Atividade 5 - Requisitos | 09/08/2025      |   ✅   | 100 |
-| Atividade 6 - Protótipo  | 16/08/2025      |   ✅   | 100 |
-| Atividade 7 - HTML       | 23/08/2025      |   ⏳   | 100 |
+| Atividade                | Data de Entrega | Status |
+|--------------------------|-----------------|--------|
+| Atividade 1 - CMD        | 26/07/2025      |   ✅   |
+| Atividade 2 - Github     | 02/08/2025      |   ✅   |
+| Atividade 3 - Requisitos | 09/08/2025      |   ✅   |
+| Atividade 4 - Requisitos | 09/08/2025      |   ✅   |
+| Atividade 5 - Requisitos | 09/08/2025      |   ✅   |
+| Atividade 6 - Protótipo  | 16/08/2025      |   ✅   |
+| Atividade 7 - HTML       | 23/08/2025      |   ✅   |
 
 **Legenda:** ✅ Entregue • ⏳ Em Andamento • 🚧 A Fazer • ❌ Atrasado
 
