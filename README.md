@@ -67,7 +67,7 @@ Controle de andamento das entregas:
 | Atividade 4 - Requisitos | 09/08/2025      |   ✅   | 100 |
 | Atividade 5 - Requisitos | 09/08/2025      |   ✅   | 100 |
 | Atividade 6 - Protótipo  | 16/08/2025      |   ✅   | 100 |
-| Atividade 7 - HTML       | 23/08/2025      |   ⏳   |     |
+| Atividade 7 - HTML       | 23/08/2025      |   ⏳   | 100 |
 
 **Legenda:** ✅ Entregue • ⏳ Em Andamento • 🚧 A Fazer • ❌ Atrasado
 
