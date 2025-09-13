@@ -26,6 +26,7 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 │
 ├── 💻 Atividades_e_Trabalhos/
 │   ├── Atividades_Individuais/
+│   │   ├── bootstrap
 │   │   ├── cmd
 │   │   ├── css
 │   │   ├── git_github
@@ -33,6 +34,7 @@ Para manter tudo organizado, adotei a seguinte estrutura de diretórios:
 │   │   ├── prototipo
 │   │   └── requisitos
 |   ├── Atividades_Praticas/
+│   │   ├── bootstrap
 │   │   ├── cmd
 │   │   ├── css
 │   │   ├── git_github
