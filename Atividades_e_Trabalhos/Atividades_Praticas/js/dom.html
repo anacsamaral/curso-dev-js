@@ -78,7 +78,9 @@
             tituloMudar.textContent = "Hoje estou no Senai!";
         });
 
-        document.querySelector("#btn-saudacao")
+        document.querySelector("#btn-saudacao").addEventListener('click', function(){
+            document.querySelector('#resultado-saudacao').textContent = `Olá ${document.querySelector("#nome-usuario")}`
+        })
 
     </script>
 </body>
