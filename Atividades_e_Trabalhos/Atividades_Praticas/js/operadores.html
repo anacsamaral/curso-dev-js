@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios Operadores</title>
+</head>
+
+<body>
+
+    <p>Aperte F12 para ver o resultado!</p>
+
+    <script>
+
+        function exercicio1() {
+            //operadores aritméticos básicos + - / *
+            const numero1 = Number(prompt("Digite o primeiro número: "));
+            const numero2 = Number(prompt("Digite o segundo número: "));
+            console.log(numero1 + numero2)
+            console.log(numero1 - numero2)
+            console.log(numero1 / numero2)
+            console.log(numero1 * numero2)
+        }
+        // exercicio1()
+
+        function exercicio2() {
+            let numero = Number(prompt("Digite um número inteiro"));
+            console.log(`Sucessor ${numero + 1} e Antecessor ${numero - 1}`)
+        }
+        //exercicio2()
+
+        function exercicio6() {
+            const valor = Number(prompt("Digite um valor em R$: "));
+            const dolar = valor / 5.35
+            console.log(`O valor convertido em $ é: ${dolar.toFixed(2)}` )
+
+        }
+       // exercicio6()
+
+        function exercicio10(){
+            const altura = Number(prompt("Informe sua altura: "));
+            const peso = Number(prompt("Informe sua peso: "));
+            console.log(`O seu IMC é de: ${(peso/(altura**2)).toFixed(2)}`);
+
+        }
+        //exercicio10()
+    </script>
+
+</body>
+
+</html>
