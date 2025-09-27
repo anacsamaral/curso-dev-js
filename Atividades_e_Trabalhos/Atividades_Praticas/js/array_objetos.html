@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <p>F12 para exibir</p>
+
+        <script>
+            //ARRAYS [] E OBJETOS {}
+            //ARRAY => INDICE 1, 2, 3
+            //OBJETOS => {CHAVE : VALOR}
+
+            //ARRAY
+
+            const frutas = ["Maça", "Banana", "Laranja", "Uva", "Pera"];
+            console.log(frutas);
+
+            //verificar qtd itens
+            console.log(frutas.length);
+
+            //exibir 1° e o último
+            console.log(frutas[0]);
+            console.log(frutas[4]);
+            console.log(frutas[frutas.length - 1]);
+
+            //inserir item
+            //insere na última posição
+            frutas.push("Jaca");
+            console.log(frutas);
+
+            //inserir a primeira posição
+            frutas.unshift("Abacaxi");
+            console.log(frutas);
+
+            //excluir itens
+            //excluir último item
+            frutas.pop();
+            console.log(frutas);
+
+            //excluir primeiro item
+            frutas.shift();
+            console.log(frutas);
+
+        </script>
+
+</body>
+</html>
