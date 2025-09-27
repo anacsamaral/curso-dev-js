@@ -24,7 +24,7 @@
             <h2 class="text-center mt-4" id="resultado"></h2>
         </div>
     </div>
-    
+
     <div class="container mt-5">
         <div class="card p-4">
             <h2 class="text-center">Calculadora de desconto</h2>
@@ -59,22 +59,64 @@
 
     <script>
         // 1
-        
-        document.querySelector("#btn-converter").addEventListener('click', function(){
+
+        document.querySelector("#btn-converter").addEventListener('click', function () {
             const ValorReal = Number(document.querySelector('#valor-real').value);
             const ValorConvertido = ValorReal / 5.30;
             document.querySelector("#resultado").textContent = ValorConvertido.toFixed(2);
         })
 
         //2
-
-        document.querySelector("#btn-calcular-desconto").addEventListener('click', function(){
+        document.querySelector("#btn-calcular-desconto").addEventListener('click', function () {
             const Preco = Number(document.querySelector('#preco').value);
             const Desconto = Number(document.querySelector('#desconto').value);
-            
-            document.querySelector("#resultado_desconto").textContent = Preco - (Preco * (Desconto/100));
+            document.querySelector("#resultado_desconto").textContent = Preco - (Preco * (Desconto / 100));
         })
 
+
+        //3
+        document.querySelector("#btn-calcular-imc").addEventListener('click', function () {
+            const Peso = Number(document.querySelector('#peso').value);
+            const Altura = Number(document.querySelector('#altura').value);
+            const imc = Peso / (Altura ** 2);
+            let textoStatus = "";
+           
+            
+            if (imc < 18.5) {
+                textoStatus = "Abaixo do peso normal";
+                cor = "yellow";
+
+            } else if (imc >= 18.5 && imc <= 24.9) {
+                textoStatus = "Peso Normal"
+                cor = "green";
+            }
+            else if (imc >= 25.0 && imc <= 29.9) {
+                textoStatus = "Excesso de peso";
+                cor = "orange";
+
+            }
+            else if (imc >= 30.0 && imc <= 34.9) {
+                textoStatus = "Obesidade I";
+                cor = "red";
+
+            }
+            else if (imc >= 35.0 && imc <= 39.9) {
+                textoStatus = "Obesidade II";
+                cor = "firebrick";
+
+            }
+            else if (imc >= 40.0 ) {
+                textoStatus = "Obesidade III";
+                cor = "darkred";
+
+            }
+            else {
+                textoStatus = "IMC Invalido";
+            }
+            document.querySelector("#resultado_imc").textContent = `IMC: ${imc.toFixed(2)} | Status:  ${textoStatus}`;
+            document.querySelector("#resultado_imc").style.color = cor;
+
+        })
     </script>
 
 </body>

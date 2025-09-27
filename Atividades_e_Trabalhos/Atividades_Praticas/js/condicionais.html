@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Condicionais</title>
+</head>
+
+<body>
+
+    <p>Aperte F12 para ver as respostas</p>
+
+
+    <script>
+        /*
+        IF
+        ELSE IF
+        ELSE
+        SWITCH
+        TERNÁRIO
+        */
+
+
+        const idade = 18;
+
+        if (idade >= 18) {
+            console.log("Você é maior de idade!");
+        } else {
+            console.log("Você é menor de idade!")
+        }
+
+        const status = (idade >= 18) ? "Você é maior de idade!" : "Você é menor de idade!";
+        console.log(status);
+
+        const numero = 8;
+        if (numero % 2 === 0) {
+            console.log("O número é par!");
+        } else {
+            console.log("Número é impar!");
+        }
+
+
+        const nota = 200;
+        if (nota >= 0 && nota <= 100) {
+            if (nota >= 80) {
+                console.log("Ótimo");
+            } else if (nota >= 60 && nota <= 79) {
+                console.log("Bom");
+            } else if (nota < 60 && nota > 30) {
+                console.log("Precisa Melhorar");
+            } else {
+                console.log("Nota inválida!");
+            }
+        } else{
+            console.log("Nota inválida!");
+        }
+
+
+        const dia = 1;
+
+        switch (dia){ // ===
+            case 1:
+                console.log("Domingo!");
+                break;
+            case 2:
+                console.log("Segunda!")
+            // 3-7
+            default:
+                console.log("Dia Inválido!")
+        }
+
+         switch (dia){ // ===
+            case 1:
+            case 7:
+                console.log("Final de Semana!");
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                console.log("Semana!")
+                break;
+            default:
+                console.log("Dia Inválido!")
+        }
+
+        switch (true){
+            case (idade >= 1 && idade < 13):
+                console.log("Criança");
+                break;
+            case (idade >= 13 && idade < 18):
+                console.log("Adolescente");
+                break;
+            case (idade >= 18 && idade < 60):
+                console.log("Adulto");
+                break;
+            case (idade >= 60 && idade <= 150):
+                console.log("Idoso");
+                break;
+            default:
+                console.log("Idade Inválida!");
+        }
+    </script>
+</body>
+
+</html>

@@ -75,13 +75,25 @@
         const tituloMudar = document.querySelector("#titulo-para-mudar");
 
         btnMudar.addEventListener('click', function(){
-            tituloMudar.textContent = "Hoje estou no Senai!";
+            tituloMudar.textContent = "Hoje estou no SENAI";
         });
 
+        //3
+
         document.querySelector("#btn-saudacao").addEventListener('click', function(){
-            document.querySelector('#resultado-saudacao').textContent = `Olá ${document.querySelector("#nome-usuario")}`
-        })
+            document.querySelector('#resultado-saudacao').textContent = `Olá ${document.querySelector("#nome-usuario").value}! `;
+        });
+
+        //4
+
+        document.querySelector("#btn-mudar-cor").addEventListener('click', function(){
+            const corEscolhida = document.querySelector("#cor-fundo").value;
+
+            document.body.style.backgroundColor = corEscolhida;
+
+            document.body.classList.remove("bg-light");
+        });
 
     </script>
 </body>
-</html>         
+</html>
