@@ -7,6 +7,39 @@
 </head>
 <body>
     <h3>Pressione F12</h3>
-    
+
+    <script>
+
+        //Exercício 1
+        function Arrays(){
+            const musicas = ["505","Blow Your Mind","Shameless"];
+            console.log(musicas);
+
+            musicas.push("Agora Hills");
+            console.log(musicas);
+
+            musicas.pop();
+            console.log(musicas);
+
+            console.log(musicas.length);
+        }
+        //Arrays();
+
+        //Exercício 2
+        function Objetos(){
+            const filme = {
+                titulo : "101 Dálmatas",
+                ano : 1996,
+                diretor : "Stephen Herek"
+            }
+
+            console.log("O filme "+filme.titulo+", dirigido por "+filme.diretor+", foi lançado em "+filme.ano+".");
+
+            filme.personagens = ["Cruella de Vil","Roger Dearly","Jasper"];
+            console.log(filme.personagens[0]);
+            console.log(filme);
+        }
+        Objetos();
+    </script>
 </body>
 </html>
