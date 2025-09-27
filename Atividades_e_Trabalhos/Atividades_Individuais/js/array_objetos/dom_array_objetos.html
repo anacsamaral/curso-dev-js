@@ -57,7 +57,35 @@
     </div>
 
     <script>
+        const iptNome = document.querySelector("#nome");
+        const iptIdade = document.querySelector("#idade");
+        const iptCurso = document.querySelector("#curso");
+        const btnCadastrar = document.querySelector("#btn-salvar");
+        const btnCancelar = document.querySelector("#btn-cancelar");
 
+        const alunos = [];
+
+        function Cadastrar(){
+            const nome = iptNome.value.trim();
+            const idade = Number(iptIdade.value.trim());
+            const curso = iptCurso.value.trim();
+            
+            if(nome && idade && curso){
+                alunos.push({nome, idade, curso});
+                alert("Aluno cadastrado com sucesso!");
+            } else {
+                alert("Preencha todos os campos!");
+            }
+        }
+
+        function Cancelar(){
+            iptNome.value = "";
+            iptIdade.value = "";
+            iptCurso.value = "";
+        }
+
+        btnCadastrar.addEventListener('click',Cadastrar);
+        btnCancelar.addEventListener('click',Cancelar);
     </script>
 </body>
 
