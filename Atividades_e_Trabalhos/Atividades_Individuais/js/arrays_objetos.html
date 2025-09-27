@@ -12,8 +12,8 @@
 
         //Exercício 1
         function Arrays(){
-            const musicas = ["505","Blow Your Mind","Shameless"];
-            console.log(musicas);
+            const musicas = ["Blow Your Mind","505","Shameless"];
+            console.log(musicas[0]);
 
             musicas.push("Agora Hills");
             console.log(musicas);
@@ -23,7 +23,7 @@
 
             console.log(musicas.length);
         }
-        //Arrays();
+        Arrays();
 
         //Exercício 2
         function Objetos(){
@@ -33,7 +33,7 @@
                 diretor : "Stephen Herek"
             }
 
-            console.log("O filme "+filme.titulo+", dirigido por "+filme.diretor+", foi lançado em "+filme.ano+".");
+            console.log(`O filme ${filme.titulo}, dirigido por ${filme.diretor}, foi lançado em ${filme.ano}.`);
 
             filme.personagens = ["Cruella de Vil","Roger Dearly","Jasper"];
             console.log(filme.personagens[0]);
