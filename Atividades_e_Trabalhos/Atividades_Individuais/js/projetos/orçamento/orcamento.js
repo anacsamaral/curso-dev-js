@@ -1,4 +1,9 @@
-document.querySelector('.seu-nome').textContent ="Ana Amaral";
+document.querySelector('.seu-nome').textContent = "Ana Amaral";
+
+// Mapeamento
+
+const PRECO_POR_PAGINA = 500;
+const PRECO_DESIGN_ADICIONAL = 1000;
 
 const inputPaginas = document.querySelector("#qtd-paginas");
 const inputDesconto = document.querySelector("#desconto");
@@ -9,3 +14,27 @@ const resumoAdicional = document.querySelector("#resumo-adicional");
 const resumoUrgencia = document.querySelector("#resumo-urgencia");
 const resumoDesconto = document.querySelector("#resumo-desconto");
 const resumoTotal = document.querySelector("#resumo-total");
+
+const calcularSubtotal = (quantidade) => quantidade * PRECO_POR_PAGINA;
+const calcularValorDesconto = (valor, porcentagem) => valor * (porcentagem / 100);
+
+function calcularTaxaUrgencia(valor, prazo) {
+    if (prazo > 0 && prazo < 5)
+        return valor * 0.1;
+    else if (prazo >= 5 && prazo < 15)
+        return valor * 0.05;
+    else
+        return valor * 0;
+}
+
+function atualzarOrcamento(){
+    const qtdPaginas = Number(inputPaginas.value);
+    const porcentagemDesconto = Number(inputDesconto.value);
+    const prazo = Number(inputPrazo.value);
+    const designIncluido = checkboxDesign.checked; // se checado, retorna true, senão, false
+
+    const subtotal = calcularSubtotal(qtdPaginas);
+    const adicionalDesign = designIncluido ? PRECO_DESIGN_ADICIONAL : 0;
+    const desconto = calcularValorDesconto(subtotal,porcentagemDesconto);
+
+}
