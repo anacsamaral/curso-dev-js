@@ -32,7 +32,6 @@ function mostrarTelaLista() {
 }
 
 function mostrarTelaCadastro() {
-    form.reset();
     telaCadastro.classList.remove("d-none");
     telaLista.classList.add("d-none");
 }
@@ -56,7 +55,7 @@ function renderizarTabela() {
     });
 }
 
-function handleSalvarUsuario(event) {
+function salvarUsuario(event) {
     event.preventDefault();
 
     const usuario = {
@@ -82,9 +81,11 @@ function handleSalvarUsuario(event) {
 function inicializar() {
     btnAdicionar.addEventListener("click", mostrarTelaCadastro);
     btnVoltarLista.addEventListener("click", mostrarTelaLista);
-    form.addEventListener("submit", handleSalvarUsuario);
+    form.addEventListener("submit", salvarUsuario);
     
-    mostrarTelaLista();
+    tabelaCorpo.addEventListener("click", (event) =>{
+        
+    })
 }
 
 inicializar();
