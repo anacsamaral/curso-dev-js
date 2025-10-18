@@ -1,24 +1,19 @@
-document.querySelector.textContent = "Ana Amaral";
-
 let usuarios = JSON.parse(localStorage.getItem("cadastro_usuarios")) || [];
 
 //Telas
-const telaLista = document.querySelector
-("#tela-lista");
-const telaCadastro = document.querySelector
-("#tela-cadastro");
-
+const telaLista = document.querySelector("#tela-lista");
+const telaCadastro = document.querySelector("#tela-cadastro");
 
 //Botões
 const btnAdicionar = document.querySelector("#btn-adicionar");
 const btnVoltarLista = document.querySelector("#btn-voltar-lista");
 
-// Inputs
+//Inputs
 const inputId = document.querySelector("#user-id");
 const inputNome = document.querySelector("#user-nome");
 const inputSobrenome = document.querySelector("#user-sobrenome");
 const inputEmail = document.querySelector("#user-email");
-const inputCEP = document.querySelector("#user-cep");
+const inputCep = document.querySelector("#user-cep");
 const inputRua = document.querySelector("#user-rua");
 const inputNumero = document.querySelector("#user-numero");
 const inputComplemento = document.querySelector("#user-complemento");
@@ -31,19 +26,18 @@ const form = document.querySelector("#user-form");
 const tabelaCorpo = document.querySelector("#user-table-body");
 
 
-//Funções
-function mostrarTelaLista(){
+function mostrarTelaLista() {
     telaLista.classList.remove("d-none");
     telaCadastro.classList.add("d-none");
     renderizarTabela();
-
 }
 
-function mostrarTelaCadastro(){
+function mostrarTelaCadastro() {
     telaCadastro.classList.remove("d-none");
     telaLista.classList.add("d-none");
 }
-function salvarUsuario(){
+
+function salvarUsuario() {
     const id = Number(inputId.value);
     const nome = inputNome.value;
     const sobrenome = inputSobrenome.value;
@@ -55,23 +49,20 @@ function salvarUsuario(){
     const cidade = inputCidade.value;
     const estado = inputEstado.value;
     const obs = inputObs.value;
-    
+
     const usuario = {
-        id: id || Date.now(), nome, sobrenome, email,
-        rua, numero, complemento, bairro, cidade, estado, obs
+        id: id || Date.now(), nome, sobrenome, email, rua, numero, complemento, bairro, cidade, estado, obs
     }
 
     usuarios.push(usuario);
-    salvarStorage();
-    mostrarTelaLista();
+    salvarNoStorage();
 }
 
-
-function salvarStorage(){
+function salvarNoStorage() {
     localStorage.setItem("cadastro_usuarios", JSON.stringify(usuarios));
 }
 
-function renderizarTabela(){
+function renderizarTabela() {
     tabelaCorpo.innerHTML = "";
     usuarios.forEach(user => {
         const tr = document.createElement("tr");
@@ -80,43 +71,46 @@ function renderizarTabela(){
             <td>${user.sobrenome}</td>
             <td>${user.email}</td>
             <td>
-                <button type="button" class="btn btn-sm btn-warning"  data-id="${user.id}" >Editar</button>
+                <button type="button" class="btn btn-sm btn-warning" data-id="${user.id}">Editar</button>
+
                 <button type="button" class="btn btn-sm btn-danger" data-id="${user.id}">Excluir</button>
             </td>
         `;
+
         tabelaCorpo.appendChild(tr);
     });
+
 }
 
-function excluirUsuario(id){
-    if (confirm("Você deseja excluir esse usuário?")){
+function excluirUsuario(id) {
+    if (confirm("Você deseja realmente excluir esse usuário?")) {
         console.log(id);
         usuarios = usuarios.filter(user => user.id !== id);
-        salvarStorage();
+        salvarNoStorage();
         renderizarTabela();
     }
 }
 
-function inicializar(){
+function inicializar() {
     btnAdicionar.addEventListener("click", mostrarTelaCadastro);
     btnVoltarLista.addEventListener("click", mostrarTelaLista);
     form.addEventListener("submit", salvarUsuario);
     mostrarTelaLista();
 
-    tabelaCorpo.addEventListener("click",(event) => {
+    tabelaCorpo.addEventListener("click", (event) => {
         const target = event.target.closest("button");
-        if(!target) return
+        if (!target) return
 
         const id = Number(target.dataset.id);
 
         if (isNaN(id)) return
 
-        if (target.classList.contains("btn-warning")){
+        if (target.classList.contains("btn-warning")) {
             editarUsuario(id);
-        } else if (target.classList.contains("btn-danger")){
+        } else if (target.classList.contains("btn-danger")) {
             excluirUsuario(id);
         }
     })
 }
 
-inicializar()
+inicializar();
