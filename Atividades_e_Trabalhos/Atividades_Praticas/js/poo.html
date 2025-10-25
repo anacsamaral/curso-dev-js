@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO</title>
+</head>
+<body>
+    
+    <script>
+        const conta1 = {titular: "Ana", saldo: 500};
+        const conta2 = {titular: "Gigi", saldo: 10000};
+
+        const contas = [
+            {titular: "Ana", saldo: 500},
+            {titular: "Gigi", saldo: 10000}
+        ];
+
+        function extrato(conta){
+            console.log(`Titular da conta: ${conta.titular} e o saldo é ${conta.saldo}`);
+        }
+
+        //extrato(conta1);
+        //extrato(conta2);
+
+        contas.forEach(conta => extrato(conta));
+
+        // poo
+        console.log('-----------------');
+
+        class ContaBancaria{
+            
+        }
+
+
+    </script>
+
+</body>
+</html>
