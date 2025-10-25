@@ -190,11 +190,36 @@ function downloadArquivo(){
     linkDownload.href = url;
     linkDownload.download = "usuarios.json";
     linkDownload.click();
-    URL.revokeObjectURL();
+    URL.revokeObjectURL(url);
 }
 
-function uploadArquivo(){
-    
+function uploadArquivo(event){
+    console.log("teste");
+
+    const arquivo = event.target.files[0];
+
+    if(!arquivo) return;
+
+    const leitor = new FileReader();
+    leitor.onload = function(e){
+        // pega o resultado da leitura do arquivo
+        const conteudoArquivo = e.target.result;
+        const usuariosImportados = JSON.parse(conteudoArquivo);
+
+        if(!Array.isArray(usuariosImportados)){
+            alert("Arquivo não é um array válido");
+        }
+
+        if(confirm("Deseja realmente substituir as informações dos usuários?")){
+            usuarios = usuariosImportados;
+            salvarNoStorage();
+            renderizarTabela();
+            alert("Usuários importados com sucesso!");
+            inputUpload.value = "";
+            //location.reload(true);
+        }
+    }
+    leitor.readAsText(arquivo);
 }
 
 function inicializar() {
