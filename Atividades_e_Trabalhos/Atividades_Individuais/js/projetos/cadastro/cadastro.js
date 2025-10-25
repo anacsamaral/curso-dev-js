@@ -26,10 +26,20 @@ const inputObs = document.querySelector("#user-obs");
 const inputBusca = document.querySelector("#user-busca");
 const inputUpload = document.querySelector("#input-upload");
 const inputDownload = document.querySelector("#input-download");
-
 const form = document.querySelector("#user-form");
 const tabelaCorpo = document.querySelector("#user-table-body");
 const btnCep = document.querySelector("#btn-buscar-cep");
+
+// Informações do Modal
+const modalDetalhes = document.querySelector("#detalhes-modal");
+const modalNome = document.querySelector("#modal-nome");
+const modalEmail = document.querySelector("#modal-email");
+const modalEndereco = document.querySelector("#modal-endereco-completo");
+const modalObs = document.querySelector("#modal-obs");
+const modalBtnEditar = document.querySelector("#modal-btn-editar");
+const modalBtnExcluir = document.querySelector("#modal-btn-excluir");
+
+const modal = new bootstrap.Modal(modalDetalhes);
 
 let idEdicao = null;
 
@@ -97,6 +107,8 @@ function renderizarTabela(usuariosFiltrados = usuarios) {
                 <button type="button" class="btn btn-sm btn-warning" data-id="${user.id}">Editar</button>
 
                 <button type="button" class="btn btn-sm btn-danger" data-id="${user.id}">Excluir</button>
+
+                <button type="button" class="btn btn-sm btn-primary" data-id="${user.id}">Mostrar Detalhes</button>
             </td>
         `;
 
@@ -222,6 +234,25 @@ function uploadArquivo(event){
     leitor.readAsText(arquivo);
 }
 
+function mostrarDetalhesUsuario(id){
+    const user = usuarios.find(u => u.id === id);
+
+    if(!user) return;
+
+    modalNome.textContent = `${user.nome} ${user.sobrenome}`;
+    modalEmail.textContent = user.email;
+
+    const endereco = [user.rua, user.numero, user.complemento, user.bairro, user.cidade, user.estado, user.cep].filter(Boolean).join(", ");
+
+    modalEndereco.textContent = endereco;
+    modalObs.textContent = user.obs;
+
+    modalBtnEditar.dataset.id = user.id;
+    modalBtnExcluir.dataset.id = user.id;
+
+    modal.show();
+}
+
 function inicializar() {
     btnAdicionar.addEventListener("click", mostrarTelaCadastro);
     btnVoltarLista.addEventListener("click", mostrarTelaLista);
@@ -248,7 +279,26 @@ function inicializar() {
             editarUsuario(id);
         } else if (target.classList.contains("btn-danger")) {
             excluirUsuario(id);
+        } else if (target.classList.contains("btn-primary")) {
+            mostrarDetalhesUsuario(id);
         }
+    })
+    
+    modalDetalhes.addEventListener("click", (event) => {
+        const target = event.target.closest("button");
+        if (!target) return
+
+        const id = Number(target.dataset.id);
+
+        if (isNaN(id)) return
+
+        if (target.classList.contains("btn-warning")) {
+            modal.hide();
+            editarUsuario(id);
+        } else if (target.classList.contains("btn-danger")) {
+            modal.hide();
+            excluirUsuario(id);
+        } 
     })
 }
 
