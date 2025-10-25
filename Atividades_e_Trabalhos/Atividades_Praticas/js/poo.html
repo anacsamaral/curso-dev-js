@@ -9,11 +9,11 @@
     
     <script>
         const conta1 = {titular: "Ana", saldo: 500};
-        const conta2 = {titular: "Gigi", saldo: 10000};
+        const conta2 = {titular: "Gigi", saldo: 1000};
 
         const contas = [
             {titular: "Ana", saldo: 500},
-            {titular: "Gigi", saldo: 10000}
+            {titular: "Gigi", saldo: 1000}
         ];
 
         function extrato(conta){
@@ -29,9 +29,21 @@
         console.log('-----------------');
 
         class ContaBancaria{
-            
+            constructor(nomeTitular, saldoConta){
+               this.nomeTitular = nomeTitular;
+               this.saldoConta = saldoConta; 
+            }
+
+            extrato(){
+                console.log(`Titular da conta: ${this.titular} e o saldo é ${this.saldo}`);
+            }
         }
 
+        const contaAna = new ContaBancaria("Ana",500);
+        const contaGigi = new ContaBancaria("Gigi",1000);
+
+        contaAna.extrato();
+        contaGigi.extrato();
 
     </script>
 
